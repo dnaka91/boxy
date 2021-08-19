@@ -1,0 +1,15 @@
+[package]
+name = "boxy"
+version = "0.1.0"
+edition = "2018"
+resolver = "2"
+
+[dependencies]
+thin_trait_object = "1.1.2"
+
+[dev-dependencies]
+criterion = "0.3.5"
+
+[[bench]]
+name = "main"
+harness = false
